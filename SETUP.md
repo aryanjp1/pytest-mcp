@@ -17,7 +17,7 @@ pip install pytest-mcp
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/pytest-mcp.git
+git clone https://github.com/aryanjp1/pytest-mcp.git
 cd pytest-mcp
 ```
 

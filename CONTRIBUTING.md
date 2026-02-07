@@ -18,7 +18,7 @@ Thank you for considering contributing to pytest-mcp. This document provides gui
 1. Fork and clone the repository
 
 ```bash
-git clone https://github.com/yourusername/pytest-mcp.git
+git clone https://github.com/aryanjp1/pytest-mcp.git
 cd pytest-mcp
 ```
 

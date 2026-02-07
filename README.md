@@ -5,7 +5,7 @@ A pytest plugin for testing MCP (Model Context Protocol) servers.
 [![PyPI version](https://img.shields.io/pypi/v/pytest-mcp.svg)](https://pypi.org/project/pytest-mcp/)
 [![Python versions](https://img.shields.io/pypi/pyversions/pytest-mcp.svg)](https://pypi.org/project/pytest-mcp/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests](https://img.shields.io/github/actions/workflow/status/yourusername/pytest-mcp/ci.yml?label=tests)](https://github.com/yourusername/pytest-mcp/actions)
+[![Tests](https://img.shields.io/github/actions/workflow/status/aryanjp1/pytest-mcp/ci.yml?label=tests)](https://github.com/aryanjp1/pytest-mcp/actions)
 
 ## Quick Start
 
@@ -331,7 +331,7 @@ async def test_greet(mcp_client):
 Contributions are welcome. To get started:
 
 ```bash
-git clone https://github.com/yourusername/pytest-mcp.git
+git clone https://github.com/aryanjp1/pytest-mcp.git
 cd pytest-mcp
 pip install -e ".[dev]"
 pytest
