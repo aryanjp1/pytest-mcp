@@ -8,7 +8,7 @@ version = "0.1.1"
 description = "A pytest plugin for testing MCP (Model Context Protocol) servers"
 readme = "README.md"
 requires-python = ">=3.10"
-license = "MIT"
+license = { text = "MIT" }
 authors = [
     { name = "pytest-mcp contributors" },
 ]
@@ -54,6 +54,7 @@ pytest_mcp = "pytest_mcp.plugin"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/pytest_mcp"]
+core-metadata-version = "2.1"
 
 [tool.hatch.build.targets.sdist]
 include = [
@@ -64,6 +65,7 @@ include = [
     "/LICENSE",
     "/CHANGELOG.md",
 ]
+core-metadata-version = "2.1"
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"

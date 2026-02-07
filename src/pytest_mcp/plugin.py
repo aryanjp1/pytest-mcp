@@ -50,7 +50,7 @@ def pytest_configure(config: pytest.Config) -> None:
     )
 
     # Add asyncio support if not already configured
-    if not config.option.asyncio_mode:
+    if hasattr(config.option, 'asyncio_mode') and not config.option.asyncio_mode:
         config.option.asyncio_mode = "auto"
 
     logger.debug("pytest-mcp plugin configured")
