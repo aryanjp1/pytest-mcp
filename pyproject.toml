@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pytest-mcp"
+name = "mcp-test-framework"
 version = "0.1.0"
 description = "A pytest plugin for testing MCP (Model Context Protocol) servers"
 readme = "README.md"

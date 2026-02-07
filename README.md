@@ -1,16 +1,16 @@
-# pytest-mcp
+# mcp-test-framework
 
 A pytest plugin for testing MCP (Model Context Protocol) servers.
 
-[![PyPI version](https://img.shields.io/pypi/v/pytest-mcp.svg)](https://pypi.org/project/pytest-mcp/)
-[![Python versions](https://img.shields.io/pypi/pyversions/pytest-mcp.svg)](https://pypi.org/project/pytest-mcp/)
+[![PyPI version](https://img.shields.io/pypi/v/mcp-test-framework.svg)](https://pypi.org/project/mcp-test-framework/)
+[![Python versions](https://img.shields.io/pypi/pyversions/mcp-test-framework.svg)](https://pypi.org/project/mcp-test-framework/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tests](https://img.shields.io/github/actions/workflow/status/aryanjp1/pytest-mcp/ci.yml?label=tests)](https://github.com/aryanjp1/pytest-mcp/actions)
 
 ## Quick Start
 
 ```bash
-pip install pytest-mcp
+pip install mcp-test-framework
 ```
 
 ```python
